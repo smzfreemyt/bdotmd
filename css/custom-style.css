@@ -1,0 +1,16 @@
+.navbar{
+    background: none;
+    z-index: 99;
+}
+.carousel{
+    position: relative;
+    z-index: 0;
+    margin-top: -75px;
+}
+.chat-icon{
+    width: 130px;
+    height: 102px;
+    margin-top: 40px;
+    margin-right: 15px;
+    float: right;
+}
