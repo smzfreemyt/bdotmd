@@ -113,3 +113,35 @@
 #problem .inner p{
     text-align: justify;
 }
+
+.our-solution{
+    position: relative;
+    text-align:center;
+    padding:80px 0;
+}
+.our-solution:before{
+    content: "";
+    border-left: 1px solid #333;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    height: 100%;
+}
+.our-solution h1{
+    display: inline-block;
+    background:#fff;
+    position: relative;
+    z-index: 999;
+    padding: 25px 0;
+}
+/* 
+ */
+#lunarcs{
+    background:url('./../images/lunarc.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
